@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:   sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222;
+    margin: 0;
+    padding: 0;
+}
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://th.bing.com/th/id/R.976e57344ad0c5f8f443b219323c5d75?rik=5z68WaKKF36EcQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fIkX7s17.jpg&ehk=2xZd9qnhX2Bmd4RRxGJmzPhE7ez7yBYxjjwEnqA4vfk%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.card{
+    width: 90%;
+    max-width:450px;
+    background: linear-gradient(135deg, #00cffe, #2c2654);
+    color: #ffff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    /* border: 0; */
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 15px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search button{
+    border: 0; 
+   outline: 0;
+   background: #ebfffc;
+   border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width: 20px;
+}
+.weather-icon{
+    width: 200px;
+    margin-top: 30px;
+}
+.weather h1{
+       font-size: 60px;
+       font-weight: 500;
+}
+.weather h2{
+       font-size: 45px;
+       font-weight: 400;
+       margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+      width: 40px;
+      margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 24px;
+    margin-top: -6px;
+}
+
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    display:none ;
+}
